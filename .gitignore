@@ -1,24 +1,64 @@
-# Nestjs specific
-/dist
-/node_modules
-/build
-/tmp
+```
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+.envrc
+*.env
+*.env.local
+*.env.*
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.egg-info/
+*.so
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.coverage
+coverage/
+htmlcov/
+.nyc_output
+coverage-final.json
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
 
 # Logs
-logs
 *.log
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
+*.log.*
 
-# dotenv environment variable files
-.env
-.env.development
-.env.test
-.env.production
+# Environment specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.DS_Store
+ehthumbs.db
+Icon?
+.directory
+.Trashes
+.Spotlight-V100
+.fseventsd
 
-# temp directory
-.temp
-.tmp
+# IDE
+.vscode/
+.idea/
+*.tmproj
+*.sublime-project
+*.sublime-workspace
+nbproject/
+```
