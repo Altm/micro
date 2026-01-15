@@ -1,0 +1,64 @@
+```
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+.envrc
+*.env
+*.env.local
+*.env.*
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.egg-info/
+*.so
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.coverage
+coverage/
+htmlcov/
+.nyc_output
+coverage-final.json
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Logs
+*.log
+*.log.*
+
+# Environment specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.DS_Store
+ehthumbs.db
+Icon?
+.directory
+.Trashes
+.Spotlight-V100
+.fseventsd
+
+# IDE
+.vscode/
+.idea/
+*.tmproj
+*.sublime-project
+*.sublime-workspace
+nbproject/
+```
