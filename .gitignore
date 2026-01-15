@@ -1,64 +1,60 @@
 ```
 # Dependencies
+node_modules/
+.venv/
+venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
-env/
-venv/
-.venv/
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Environment variables
 .env
 .env.local
 .env.*
-.envrc
-*.env
-*.env.local
-*.env.*
 
-# Build artifacts
-build/
-dist/
-*.egg
-*.egg-info/
-*.so
-*.whl
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Testing
-.coverage
-coverage/
-htmlcov/
-.nyc_output
-coverage-final.json
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
 
 # Logs
 *.log
-*.log.*
 
-# Environment specific
+# OS generated files
 .DS_Store
 Thumbs.db
-*.swp
-*.swo
-*~
-.DS_Store
-ehthumbs.db
-Icon?
-.directory
-.Trashes
-.Spotlight-V100
-.fseventsd
 
-# IDE
-.vscode/
-.idea/
-*.tmproj
-*.sublime-project
-*.sublime-workspace
-nbproject/
+# Docker
+.dockerignore
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.egg-info/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Frontend build artifacts (if any)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.db
+*.db-journal
+
+# Local configuration
+config/local.py
 ```
